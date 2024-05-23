@@ -1,2 +1,2 @@
 # resume
-This is my developpers resume
+This is my developer resume
