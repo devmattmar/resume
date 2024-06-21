@@ -1,11 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 .container {
     max-width: 800px;
-    margin: 20px auto;
-}
-.section {
-    margin-bottom: 30px;
+    margin: 0 auto;
 }
