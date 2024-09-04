@@ -1,7 +1,48 @@
 body {
     line-height: 1.5;
+    background-color: #f8f9fa;
 }
+
 .container {
     max-width: 800px;
     margin: 0 auto;
+}
+
+header {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.card {
+    border-color: #007bff;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.list-group-item {
+    background-color: #e9ecef;
+    color: #343a40;
+}
+
+.list-group-item:nth-child(odd) {
+    background-color: #ced4da;
+}
+
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
 }
