@@ -7,17 +7,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="css/main.css" rel="stylesheet">
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
 <div class="container">
-    <header class="section bg-dark text-light text-center mb-5 p-3">
+    <header class="section bg-dark text-light text-center mb-1 p-3">
         <h1 class="display-4">Matthieu MARIANI</h1>
         <p class="lead">Développeur Web Full Stack</p>
         <a class="fs-5" href="https://github.com/devmattmar" target="_blank"><i class="bi bi-github"></i></a>
         <a class="fs-5" href="mailto:devmattmar@gmail.com"><i class="bi bi-envelope-fill"></i></a>
     </header>
+    <div class="mb-5" id="google_translate_element"></div>
     <main>
-
         <section class="mb-5">
             <h2 class="mb-4">À propos de moi</h2>
             <p class="lead">Passionné par le développement d'applications web, je suis spécialisé dans les technologies suivantes : HTML, CSS, JavaScript, PHP, et SQL. J'ai une expérience professionnelle avec le framework Laravel et je m'intéresse également à ReactJS.</p>
@@ -107,7 +108,15 @@
     </footer>
 
 </div>
-
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'fr',
+            includedLanguages: 'en,es,it,de,zh-CN,ja,ru,',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
